@@ -3,21 +3,22 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Galvanize Delevers</title>
+    <title>Galvanize Delivers</title>
     <!--Import Google Icon Font-->
-     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-     <!--Import Google Roboto Font-->
-     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import Google Roboto Font-->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet"> -->
 
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="/assets/stylesheets/materialize.css">
     <!-- MY CSS STYLES-->
     <link rel="stylesheet" href="/assets/stylesheets/style.css">
+
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <!-- jQuery 2.1.1.min-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="/assets/scripts/materialize.js"></script>
     <!-- app.js link -->
@@ -26,6 +27,93 @@
 </head>
 
 <body>
+    <!-- NAVIGATION BAR -->
+    <div class="navbar-fixed">
+        <nav class="white">
+            <div class="nav-wrapper container">
+                <a id="logo-container" href="index.html" class="brand-logo orange-text text-darken-3"><img class="gLogo" src="/assets/images/galvanizedelivers.png"></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="orders.html" class="orange-text text-darken-3">Order Delivery</a></li>
+                </ul>
+
+                <!-- MOBILE NAVIGATION BAR -->
+                <ul id="nav-mobile" class="side-nav orange darken-3">
+                    <li><a href="orders.html" class="orange-text text-darken-3">Order Delivery</a></li>
+                </ul>
+                <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+            </div>
+        </nav>
+    </div>
+
+    <!-- HERO IMAGE PARALLAX CONTAINER -->
+    <div id="index-banner" class="parallax-container">
+        <div class="section no-pad-bot">
+            <div class="container">
+
+                <h1 class="header center white-text">Fine Dining, Delivered.</h1>
+                <div class="row center">
+                    <a href="orders.html" class="waves-effect waves-light btn-large orange darken-3 white-text">PLACE AN ORDER</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="parallax"><img src="/assets/images/hero.jpg"></div>
+    </div>
+
+    <!-- CONTENT SECTION -->
+    <div class="container">
+        <div class="section">
+            <div class="row">
+                <!-- SHOP ONLINE -->
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h4 class="center orange-text text-darken-3"><i class="material-icons">add_shopping_cart</i> Shop Online</h4>
+                        <p class="light ">Using our convenient web app, you'll get all the power of gFood without having to call your order in. Order in your pajamas, order 24 hours a day, order on Christmas, we're here to serve you.</p>
+                    </div>
+                </div>
+                <!-- FAST DELIVERY -->
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h4 class="center orange-text text-darken-3"><i class="material-icons">local_shipping</i> Fast Delivery</h4>
+                        <p class="light ">You've never seen ordering this quick. Our proprietary ordering rocket ship delivery team allows you to spend less time being hungry, and more time doing what matters most to you. We'd ask what that is, but gFood respects your
+                            privacy.
+                        </p>
+                    </div>
+                </div>
+                <!-- GREAT DEALS -->
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h4 class="center orange-text text-darken-3"><i class="material-icons">monetization_on</i> Great Deals</h4>
+                        <p class="light ">Money: You've got it, we want it. But let it never be said we're not incredibly fair! Burger sales? Check. Pizza sales? Check. Burger and pizza sales?? Check, check, check! We seriously can't stop making deals.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER  -->
+    <footer class="page-footer orange darken 3">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="grey-text text-darken-2"> Galvanize Delivers</h5>
+                    <p class="grey-text text-darken-1">Fine Dining, Delivered.</p>
+                </div>
+                <div class="col l6 s12 offset-s12">
+                    <ul>
+                        <li><a class="grey-text text-darken-1" href="index.html">Home</a></li>
+                        <li><a class="grey-text text-darken-1" href="index.html">Order Delivery</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <h6>&copy; 2016 Galvanize Delivers</h6>
+            </div>
+        </div>
+    </footer>
+
 
 </body>
 
