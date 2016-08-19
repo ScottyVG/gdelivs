@@ -10,11 +10,12 @@ $(document).ready(function() {
     addToCart(price, title);
   });
 
-  // addToCart(price, title)
-
   // find price & title
   var addToCart = function(price, title) {
+    $('#cart').append(`<tr><td>${title}</td>
+    <td>${price}</td></tr>`)
     console.log(`Price: ${price} Title:${title}`);
   }
+
 
 });
