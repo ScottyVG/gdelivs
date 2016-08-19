@@ -31,7 +31,7 @@
   <div class="navbar-fixed">
     <nav class="grey darken-3">
       <div class="nav-wrapper container">
-        <a id="logo-container" href="index.html" class="brand-logo orange-text text-darken-1"><img class="gLogo" src="assets/images/galvanizedelivers.png"></a>
+        <a id="logo-container" href="index.html" class="brand-logo orange-text text-darken-1"><img class="gLogo" src="assets/images/galvanizedelivers2.png"></a>
         <ul class="right hide-on-med-and-down">
           <li><a href="orders.html" class="orange-text text-darken-1">Order Delivery</a></li>
         </ul>
@@ -51,17 +51,17 @@
   <div class="container">
     <!-- MENU -->
     <div class="row">
-      <div class="col s12 m8">
+      <div id="menu" class="col s12 m8">
         <h4>Menu</h4>
         <div class="row">
           <div class="col s12 m6">
-            <div class="card hoverable">
+            <div id="item" class="card hoverable">
               <div class="card-image">
                 <img src="assets/images/burger.jpg">
               </div>
               <div class="card-content">
-                <span class="card-title">Royale with Cheese</span>
-                <p>&#36;8.99</p>
+                <span class="card-title flow-text">Royale with Cheese</span>
+                <p class="price">&#36;8.99</p>
               </div>
               <div class="card-action">
                 <a href="#" class="orange-text text-darken-3">ADD TO ORDER</a>
@@ -75,7 +75,7 @@
               </div>
               <div class="card-content">
                 <span class="card-title">Arugula Pie</span>
-                <p>&#36;11.99</p>
+                <p class="price">&#36;11.99</p>
               </div>
               <div class="card-action">
                 <a href="#" class="orange-text text-darken-3">ADD TO ORDER</a>
@@ -91,7 +91,7 @@
               </div>
               <div class="card-content">
                 <span class="card-title">Smoked Swine</span>
-                <p>&#36;14.99</p>
+                <p class="price">&#36;14.99</p>
               </div>
               <div class="card-action">
                 <a href="#" class="orange-text text-darken-3">ADD TO ORDER</a>
@@ -105,7 +105,7 @@
               </div>
               <div class="card-content">
                 <span class="card-title">Ice Cream Biscut</span>
-                <p>&#36;7.99</p>
+                <p class="price">&#36;7.99</p>
               </div>
               <div class="card-action">
                 <a href="#" class="orange-text text-darken-3">ADD TO ORDER</a>
@@ -123,7 +123,7 @@
             <thead>
               <tr>
                 <th data-field="name">Item</th>
-                <th data-field="price">Item</th>
+                <th data-field="price">Price</th>
               </tr>
             </thead>
 
@@ -141,23 +141,20 @@
                 <td>$7.00</td>
               </tr>
             </tbody>
-          </table>
-          <!-- TOTAL -->
-          <table>
-            <tbody class="left-align">
+            <tfoot class="right-align">
               <tr>
                 <td>Subtotal</td>
-                <td>$0.87</td>
+                <td>$0.00</td>
               </tr>
               <tr>
                 <td>Tax</td>
-                <td>$3.76</td>
+                <td>$0.00</td>
               </tr>
               <tr>
                 <td>Total</td>
-                <td>$7.00</td>
+                <td>$0.00</td>
               </tr>
-            </tbody>
+            </tfoot>
           </table>
 
           <!-- FORM -->
@@ -180,7 +177,7 @@
               <label for="icon_address">Address</label>
             </div>
             <div class="col s12 center">
-              <button class="btn waves-effect waves-light" type="submit" name="action">PLACE ORDER
+              <button class="btn waves-effect waves-light orange darken-1" type="submit" name="action">PLACE ORDER
                 <i class="material-icons right">send</i>
               </button>
 
