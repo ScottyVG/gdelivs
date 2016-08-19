@@ -14,7 +14,6 @@ $(document).ready(function() {
   var addToCart = function(price, title) {
     $('#cart').append(`<tr><td>${title}</td>
     <td>${price}</td></tr>`)
-    console.log(`Price: ${price} Title:${title}`);
     updateTotal(price);
   }
   var updateTotal = function(price) {
@@ -26,7 +25,6 @@ $(document).ready(function() {
     current_tax = current_subtotal * 0.085
     current_total = current_subtotal + current_tax
 
-    console.log(`current total= ${current_total}`);
 
     $('#subtotal').text('$' + current_subtotal.toFixed(2))
     $('#tax').text('$' + current_tax.toFixed(2))
